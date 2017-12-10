@@ -1,0 +1,1746 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     69995,       1737]
+NotebookOptionsPosition[     53841,       1439]
+NotebookOutlinePosition[     54203,       1455]
+CellTagsIndexPosition[     54160,       1452]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Summer School 2017: Topic Explorations", "Title",
+ CellChangeTimes->{{3.719592139779183*^9, 3.71959214647462*^9}, {
+   3.71959331908223*^9, 3.71959332103292*^9}, 3.71959442238171*^9, 
+   3.7195947649173822`*^9}],
+
+Cell["\<\
+Topic Explorations are computational essays exploring wide ranging subject \
+areas expressed through the Wolfram Language as succinct representations of \
+high-level ideas, and formatted in a way that is easy to read and understand. \
+The Topic Explorations in this collection were produced by students at the \
+2017 Wolfram Summer School, reflecting each of their individual areas of \
+interest.\
+\>", "Text",
+ CellChangeTimes->{{3.719592248990755*^9, 3.719592256493472*^9}, {
+   3.719592299204948*^9, 3.719592382808276*^9}, {3.7195924201984367`*^9, 
+   3.71959245279735*^9}, {3.7195925687299957`*^9, 3.719592569696306*^9}, {
+   3.719592713243113*^9, 3.719592716545733*^9}, {3.7195927679924507`*^9, 
+   3.7195928252776213`*^9}, 3.7195947619544563`*^9}],
+
+Cell[TextData[{
+ "To edit or evaluate any of these notebooks, click ",
+ StyleBox["Open In",
+  FontWeight->"Bold"],
+ " at the bottom of the browser window to select a Wolfram Cloud product. "
+}], "Text",
+ CellChangeTimes->{{3.719604526465925*^9, 3.719604549327183*^9}, {
+  3.719604909539323*^9, 3.719604911449524*^9}, {3.719604945497609*^9, 
+  3.719604946047824*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Sonifying ",
+ StyleBox["Clave",
+  FontSlant->"Italic"],
+ " son - Exploring Musical Rhythm"
+}], "Section",
+ CellChangeTimes->{
+  3.719575320948276*^9, {3.719575405335322*^9, 3.7195754201751213`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/SonifyingClaveSon-\
+ExploringMusicalRhythm.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SonifyingClaveSon-ExploringMusicalRhythm.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SonifyingClaveSon-ExploringMusicalRhythm.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320954246*^9, {3.719576349646658*^9, 3.719576349648745*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ramsey\[CloseCurlyQuote]s Theorem", "Section",
+ CellChangeTimes->{
+  3.7195753206813173`*^9, {3.719575459102002*^9, 3.719575461853475*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/RamseysTheorem.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RamseysTheorem.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RamseysTheorem.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753206871223`*^9, {3.7195763240623617`*^9, 3.71957632406424*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rotational Dynamics of a Free Triatomic Molecule", "Section",
+ CellChangeTimes->{
+  3.7195753207833147`*^9, {3.719575440206938*^9, 3.719575448726255*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+RotationalDynamicsOfAFreeTriatomicMolecule.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RotationalDynamicsOfAFreeTriatomicMolecule.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RotationalDynamicsOfAFreeTriatomicMolecule.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753208066473`*^9, {3.719576333078936*^9, 3.719576333081114*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Exploration of Noble Gases", "Section",
+ CellChangeTimes->{
+  3.7195753195648746`*^9, {3.7195756289582977`*^9, 3.719575632614192*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/ExplorationOfNobleGases.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ExplorationOfNobleGases.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ExplorationOfNobleGases.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753195709267`*^9, {3.7195761972188063`*^9, 3.7195761972208557`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Lindenmayer Systems", "Section",
+ CellChangeTimes->{
+  3.7195753200328627`*^9, {3.719575556233996*^9, 3.7195755574098167`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/LindenmayerSystems.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LindenmayerSystems.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LindenmayerSystems.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753200388737`*^9, {3.719576262514559*^9, 3.719576262516597*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Artificial Neural Networks", "Section",
+ CellChangeTimes->{
+  3.719575319098547*^9, {3.7195757907847958`*^9, 3.7195757926240797`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/ArtificialNeuralNetworks.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialNeuralNetworks.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialNeuralNetworks.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753191237297`*^9, {3.719576114067243*^9, 3.71957611406944*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Spherical Harmonics", "Section",
+ CellChangeTimes->{
+  3.7195753209818974`*^9, {3.7195754026721163`*^9, 3.719575403664483*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/SphericalHarmonics.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SphericalHarmonics.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SphericalHarmonics.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957532100851*^9, {3.719576352504903*^9, 3.719576352507793*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Prime Difference Sequences and Cellular Automata", "Section",
+ CellChangeTimes->{
+  3.7195753205856667`*^9, {3.719575468478109*^9, 3.719575474213334*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+PrimeDifferenceSequencesAndCellularAutomata.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PrimeDifferenceSequencesAndCellularAutomata.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PrimeDifferenceSequencesAndCellularAutomata.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320608382*^9, {3.719576314839142*^9, 3.7195763148412724`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Monte CarloIntegration", "Section",
+ CellChangeTimes->{
+  3.7195753203000174`*^9, {3.7195755199954433`*^9, 3.719575520763371*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/MonteCarloIntegration.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MonteCarloIntegration.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MonteCarloIntegration.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320305956*^9, {3.719576285928193*^9, 3.7195762859302807`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Artificial Life and Cellular Automata: Langton\[CloseCurlyQuote]s Ant", \
+"Section",
+ CellChangeTimes->{
+  3.7195753190651197`*^9, {3.71957579362411*^9, 3.719575823390246*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+ArtificialLifeAndCellularAutomata-LangtonsAnt.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialLifeAndCellularAutomata-LangtonsAnt.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialLifeAndCellularAutomata-LangtonsAnt.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957531907087*^9, {3.71957610832441*^9, 3.719576108326532*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Differential Drive-Path Following", "Section",
+ CellChangeTimes->{
+  3.719575319463604*^9, {3.719575643166662*^9, 3.719575648653246*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/DifferentialDrive-\
+PathFollowing.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/DifferentialDrive-PathFollowing.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/DifferentialDrive-PathFollowing.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753194912233`*^9, {3.719575653511105*^9, 3.7195756540533123`*^9}, {
+   3.719576190723333*^9, 3.719576190725273*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Backpropagation Algorithm", "Section",
+ CellChangeTimes->{
+  3.71957531917635*^9, {3.7195757828084593`*^9, 3.719575783672694*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/BackpropagationAlgorithm.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BackpropagationAlgorithm.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BackpropagationAlgorithm.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319182199*^9, {3.719576139167974*^9, 3.719576139170026*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Euclidean Vector Introduction", "Section",
+ CellChangeTimes->{
+  3.719575319532502*^9, {3.719575634797914*^9, 3.719575637397753*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/EuclideanVectorIntroduction.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/EuclideanVectorIntroduction.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/EuclideanVectorIntroduction.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753195567093`*^9, {3.719576194299075*^9, 3.719576194301115*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Comparison of Equations of State for Gaseous CO2", "Section",
+ CellChangeTimes->{
+  3.719575319334146*^9, {3.719575714778988*^9, 3.7195757280103703`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+ComparisonOfEquationsOfStateForGaseousCO2.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ComparisonOfEquationsOfStateForGaseousCO2.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ComparisonOfEquationsOfStateForGaseousCO2.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319356339*^9, {3.719576177819932*^9, 3.719576177826294*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Aristotles Wheels Paradox", "Section",
+ CellChangeTimes->{
+  3.7195753210506983`*^9, {3.719575391016068*^9, 3.719575393856573*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/TheAristotlesWheelsParadox.nb",
+ 
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheAristotlesWheelsParadox.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheAristotlesWheelsParadox.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957532107412*^9, {3.719576358501752*^9, 3.719576358505026*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Coupled Pendulum System", "Section",
+ CellChangeTimes->{
+  3.719575319363886*^9, {3.719575710100602*^9, 3.719575713538953*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/CoupledPendulumSystem.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CoupledPendulumSystem.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CoupledPendulumSystem.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753193699617`*^9, {3.719576182132406*^9, 3.7195761821346617`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Creating Neural Tuning Curves", "Section",
+ CellChangeTimes->{
+  3.7195753193966503`*^9, {3.719575706196076*^9, 3.719575709011478*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/CreatingNeuralTuningCurves.nb",
+ 
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CreatingNeuralTuningCurves.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CreatingNeuralTuningCurves.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319423175*^9, {3.719576184909272*^9, 3.7195761849113293`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Deep Convolution Neural Networks for Dummies", "Section",
+ CellChangeTimes->{
+  3.71957531943073*^9, {3.719575675901156*^9, 3.71957569924*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+DeepConvolutionNeuralNetworksForDummies.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/DeepConvolutionNeuralNetworksForDummies.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/DeepConvolutionNeuralNetworksForDummies.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319436586*^9, 3.7195757602408943`*^9, {3.719576187892655*^9, 
+   3.7195761878947277`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Artificial Neuron", "Section",
+ CellChangeTimes->{
+  3.7195753191482687`*^9, {3.719575786591605*^9, 3.7195757875600023`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/ArtificialNeuron.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialNeuron.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ArtificialNeuron.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319169055*^9, {3.719576119320097*^9, 3.719576119322235*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Exploring Correlation in Statistics", "Section",
+ CellChangeTimes->{
+  3.7195753195994*^9, {3.7195756215825977`*^9, 3.719575626062319*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+ExploringCorrelationInStatistics.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ExploringCorrelationInStatistics.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ExploringCorrelationInStatistics.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319623847*^9, {3.719576200428418*^9, 3.719576200430571*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["An Introduction to Markov Chains", "Section",
+ CellChangeTimes->{
+  3.719575319002681*^9, {3.719575817270412*^9, 3.719575821398294*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/AnIntroductionToMarkovChains.\
+nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/AnIntroductionToMarkovChains.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/AnIntroductionToMarkovChains.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753190085363`*^9, {3.719576096095042*^9, 3.7195760960969677`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fourier Series", "Section",
+ CellChangeTimes->{
+  3.719575319631928*^9, {3.719575613639946*^9, 3.719575615334939*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/FourierSeries.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/FourierSeries.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/FourierSeries.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753196382008`*^9, {3.719576203236075*^9, 3.719576203238183*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Humidity in the United States", "Section",
+ CellChangeTimes->{
+  3.719575319800372*^9, {3.719575582136153*^9, 3.7195755886557493`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/HumidityInTheUnitedStates.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/HumidityInTheUnitedStates.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/HumidityInTheUnitedStates.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319823295*^9, {3.719576236858589*^9, 3.7195762368607483`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Gossip Algorithms Over Different Network Topologies", "Section",
+ CellChangeTimes->{
+  3.719575319733021*^9, {3.719575598599619*^9, 3.71957560372713*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+GossipAlgorithmsOverDifferentNetworkTopologies.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/GossipAlgorithmsOverDifferentNetworkTopologies.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/GossipAlgorithmsOverDifferentNetworkTopologies.nb"]], "Text",\
+
+ CellChangeTimes->{
+  3.71957531975771*^9, {3.719576231722149*^9, 3.719576231724401*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Sandpile Model for Self-Organized Criticality", "Section",
+ CellChangeTimes->{
+  3.719575320850841*^9, {3.7195754302155533`*^9, 3.7195754368943777`*^9}, {
+   3.719576337370082*^9, 3.7195763374888563`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+SandpileModelForSelfOrganizedCriticality.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SandpileModelForSelfOrganizedCriticality.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SandpileModelForSelfOrganizedCriticality.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753208733673`*^9, {3.719576340421732*^9, 3.7195763404238577`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Harnessing the IOT for Global Development", "Section",
+ CellChangeTimes->{
+  3.7195753197667513`*^9, {3.719575590527918*^9, 3.7195755965917253`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+HarnessingTheIOTForGlobalDevelopment.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/HarnessingTheIOTForGlobalDevelopment.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/HarnessingTheIOTForGlobalDevelopment.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319772455*^9, {3.719576234362651*^9, 3.719576234364786*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Introduction to Quantum Interference", "Section",
+ CellChangeTimes->{
+  3.719575319897972*^9, {3.719575569656775*^9, 3.7195755733291807`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+IntroductionToQuantumInterference.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntroductionToQuantumInterference.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntroductionToQuantumInterference.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957531990399*^9, {3.719576250769864*^9, 3.719576250771974*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Center of US Population", "Section",
+ CellChangeTimes->{
+  3.719575321082776*^9, {3.719575385617216*^9, 3.719575389696319*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/TheCenterOfUSPopulation.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheCenterOfUSPopulation.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheCenterOfUSPopulation.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575321088922*^9, {3.719576361444956*^9, 3.7195763614471073`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Introduction to Transfer Learning", "Section",
+ CellChangeTimes->{
+  3.719575319932468*^9, {3.719575564217925*^9, 3.7195755677767687`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/IntroductionToTransferLearning.\
+nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntroductionToTransferLearning.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntroductionToTransferLearning.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753199569073`*^9, {3.7195762538574457`*^9, 3.719576253859662*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Laplace Transform", "Section",
+ CellChangeTimes->{
+  3.719575319964582*^9, {3.719575561785687*^9, 3.719575562929277*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/LaplaceTransform.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LaplaceTransform.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LaplaceTransform.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319970524*^9, {3.7195762567534037`*^9, 3.7195762567555227`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Segmentation Using Mathematical Morphology", "Section",
+ CellChangeTimes->{
+  3.7195753208807364`*^9, {3.719575425727912*^9, 3.7195754289350557`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+SegmentationUsingMathematicalMorphology.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SegmentationUsingMathematicalMorphology.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/SegmentationUsingMathematicalMorphology.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753208865213`*^9, {3.719576343445319*^9, 3.719576343447277*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Approximations to the PrimePi Function", "Section",
+ CellChangeTimes->{
+  3.71957531903745*^9, {3.7195758072719507`*^9, 3.719575824206211*^9}, 
+   3.7195758995959673`*^9}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+ApproximationsToThePrimePiFunction.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ApproximationsToThePrimePiFunction.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ApproximationsToThePrimePiFunction.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753190578012`*^9, {3.719576099455262*^9, 3.7195760994572287`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Linear Regression With Outliers", "Section",
+ CellChangeTimes->{
+  3.719575320066824*^9, {3.719575551890378*^9, 3.71957555468964*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/LinearRegressionWithOutliers.\
+nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LinearRegressionWithOutliers.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/LinearRegressionWithOutliers.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320091292*^9, {3.71957626562535*^9, 3.719576265627494*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ramsey Numbers", "Section",
+ CellChangeTimes->{
+  3.719575320649379*^9, {3.7195754628302097`*^9, 3.719575464596847*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/RamseyNumbers.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RamseyNumbers.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RamseyNumbers.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320673778*^9, {3.7195763208389683`*^9, 3.7195763208411083`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Markov Chains", "Section",
+ CellChangeTimes->{
+  3.719575320098851*^9, {3.71957554965733*^9, 3.71957555104185*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/MarkovChains.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MarkovChains.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MarkovChains.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320104589*^9, {3.719576268281912*^9, 3.7195762682840652`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Space of Perfect Rhyme and Perfect Similarity", "Section",
+ CellChangeTimes->{
+  3.719575321182746*^9, {3.7195753691394253`*^9, 3.719575378168244*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+TheSpaceOfPerfectRhymeAndPerfectSimilarity.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheSpaceOfPerfectRhymeAndPerfectSimilarity.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheSpaceOfPerfectRhymeAndPerfectSimilarity.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575321206794*^9, {3.7195763706458883`*^9, 3.7195763706481123`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Motion of a Classical Particle in a Box", "Section",
+ CellChangeTimes->{
+  3.719575320334784*^9, {3.71957550828323*^9, 3.719575517522789*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+MotionOfAClassicalParticleInABox.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MotionOfAClassicalParticleInABox.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MotionOfAClassicalParticleInABox.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320356636*^9, {3.719576288808058*^9, 3.719576288810109*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Neutrino Propagation in Supernovae with Non-Standard Interactions\
+\>", "Section",
+ CellChangeTimes->{
+  3.7195753203847733`*^9, {3.719575497445306*^9, 3.719575507339369*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+NeutrinoPropagationInSupernovaeWithNon-StandardInteractions.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/NeutrinoPropagationInSupernovaeWithNon-StandardInteractions.\
+nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/NeutrinoPropagationInSupernovaeWithNon-StandardInteractions.\
+nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753204068747`*^9, {3.719576291424233*^9, 3.719576291426355*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Collatz Conjecture", "Section",
+ CellChangeTimes->{
+  3.719575321148756*^9, {3.7195753790324917`*^9, 3.719575381144943*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/TheCollatzConjecture.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheCollatzConjecture.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheCollatzConjecture.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575321154787*^9, {3.719576367749776*^9, 3.719576367751911*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cell Receptors", "Section",
+ CellChangeTimes->{
+  3.7195753192989388`*^9, {3.7195757396586637`*^9, 3.7195757407223463`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/CellReceptors.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CellReceptors.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/CellReceptors.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319305771*^9, {3.719576174700514*^9, 3.7195761747025023`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Time Dilation", "Section",
+ CellChangeTimes->{
+  3.719575321214757*^9, {3.7195753570893297`*^9, 3.719575359041781*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/TimeDilation.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TimeDilation.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TimeDilation.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575321221341*^9, {3.7195763732447433`*^9, 3.71957637324683*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Benford\[CloseCurlyQuote]s Law", "Section",
+ CellChangeTimes->{
+  3.719575319228106*^9, {3.7195757731448603`*^9, 3.719575774775854*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/BenfordsLaw.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BenfordsLaw.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BenfordsLaw.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753192339983`*^9, {3.7195761633932*^9, 3.7195761633956327`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Web Development", "Section",
+ CellChangeTimes->{
+  3.719575321249077*^9, {3.719575355003439*^9, 3.7195753564022512`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/WebDevelopment.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/WebDevelopment.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/WebDevelopment.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753212736797`*^9, {3.719576377172348*^9, 3.719576377174473*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Nyquist-Shannon Sampling Theorem", "Section",
+ CellChangeTimes->{
+  3.719575320414976*^9, {3.719575492493012*^9, 3.719575494396186*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/Nyquist-ShannonSamplingTheorem.\
+nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Nyquist-ShannonSamplingTheorem.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Nyquist-ShannonSamplingTheorem.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320421266*^9, {3.7195762942951927`*^9, 3.719576294297277*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Optimal Stopping", "Section",
+ CellChangeTimes->{
+  3.719575320448922*^9, {3.719575489123893*^9, 3.719575490372674*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/OptimalStopping.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/OptimalStopping.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/OptimalStopping.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320473703*^9, {3.7195762971110983`*^9, 3.719576297113344*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Measure Of Center", "Section",
+ CellChangeTimes->{
+  3.719575320132538*^9, {3.719575546218337*^9, 3.719575548017334*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/MeasureOfCenter.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MeasureOfCenter.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MeasureOfCenter.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320157196*^9, {3.71957627095273*^9, 3.719576270954921*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Pigeonhole Principle", "Section",
+ CellChangeTimes->{
+  3.719575320481782*^9, {3.7195754875100594`*^9, 3.7195754881728573`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/PigeonholePrinciple.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PigeonholePrinciple.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PigeonholePrinciple.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320487623*^9, {3.719576300487595*^9, 3.719576300489794*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Portfolio Optimization", "Section",
+ CellChangeTimes->{
+  3.7195753205155907`*^9, {3.719575484556054*^9, 3.719575485940675*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/PortfolioOptimization.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PortfolioOptimization.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PortfolioOptimization.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753205405893`*^9, {3.719576307992908*^9, 3.719576307995041*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quantum Mechanics", "Section",
+ CellChangeTimes->{
+  3.7195753206159983`*^9, {3.719575466372806*^9, 3.7195754676131897`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/QuantumMechanics.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/QuantumMechanics.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/QuantumMechanics.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320621751*^9, {3.7195763174711742`*^9, 3.719576317473308*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Integral Transforms", "Section",
+ CellChangeTimes->{
+  3.7195753198706284`*^9, {3.719575574713323*^9, 3.719575575713006*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/IntegralTransforms.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntegralTransforms.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IntegralTransforms.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319889517*^9, {3.719576242562847*^9, 3.7195762425649548`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Resonance in a Mechanical System", "Section",
+ CellChangeTimes->{
+  3.719575320714655*^9, {3.719575452750299*^9, 3.719575458269755*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/ResonanceInAMechanicalSystem.\
+nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ResonanceInAMechanicalSystem.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ResonanceInAMechanicalSystem.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320741004*^9, {3.7195763275982313`*^9, 3.719576327600234*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metropolis Hastings Algorithm", "Section",
+ CellChangeTimes->{
+  3.719575320231619*^9, {3.7195755294914494`*^9, 3.719575531474469*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/MetropolisHastingsAlgorithm.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MetropolisHastingsAlgorithm.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MetropolisHastingsAlgorithm.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320237813*^9, {3.719576279967882*^9, 3.719576279970052*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Bank Statements Analysis in Mathematica", "Section",
+ CellChangeTimes->{
+  3.719575319208817*^9, {3.719575776224019*^9, 3.71957578105608*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+BankStatementsAnalysisInMathematica.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BankStatementsAnalysisInMathematica.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BankStatementsAnalysisInMathematica.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957531922071*^9, {3.719576154181614*^9, 3.719576154183772*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Riemann Sum", "Section",
+ CellChangeTimes->{
+  3.719575320749124*^9, {3.719575450174694*^9, 3.719575451173703*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/RiemannSum.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RiemannSum.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RiemannSum.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320754916*^9, {3.7195763303497267`*^9, 3.719576330351728*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["RSA", "Section",
+ CellChangeTimes->{3.719575320814229*^9, 3.719575438983989*^9}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/RSA.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RSA.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/RSA.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320820466*^9, {3.719576336126438*^9, 3.7195763361285887`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Modelling a Submarine Using Potential Flow Analysis", "Section",
+ CellChangeTimes->{
+  3.719575320266865*^9, {3.719575521834556*^9, 3.71957552783523*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+ModellingASubmarineUsingPotentialFlowAnalysis.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ModellingASubmarineUsingPotentialFlowAnalysis.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/ModellingASubmarineUsingPotentialFlowAnalysis.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320291975*^9, {3.7195762831915083`*^9, 3.719576283193542*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Shockley-Queisser Limit", "Section",
+ CellChangeTimes->{
+  3.7195753209141903`*^9, {3.719575422095763*^9, 3.719575424167532*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/Shockley-QueisserLimit.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Shockley-QueisserLimit.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Shockley-QueisserLimit.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320939665*^9, {3.719576346374497*^9, 3.719576346376646*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Meissner Effect for Rotating Black Holes", "Section",
+ CellChangeTimes->{
+  3.719575320165082*^9, {3.719575535634904*^9, 3.719575544225651*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+MeissnerEffectForRotatingBlackHoles.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MeissnerEffectForRotatingBlackHoles.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MeissnerEffectForRotatingBlackHoles.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753201709633`*^9, {3.719576274121965*^9, 3.719576274124139*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ideas and Growth", "Section",
+ CellChangeTimes->{
+  3.719575319832097*^9, {3.7195755774895983`*^9, 3.7195755802803917`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/IdeasAndGrowth.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IdeasAndGrowth.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/IdeasAndGrowth.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957531983847*^9, {3.7195762400504704`*^9, 3.7195762400525503`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Stylized Facts In Financial Time Series", "Section",
+ CellChangeTimes->{
+  3.7195753210166683`*^9, {3.719575396265544*^9, 3.7195754008473473`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+StylizedFactsInFinancialTimeSeries.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/StylizedFactsInFinancialTimeSeries.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/StylizedFactsInFinancialTimeSeries.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753210227537`*^9, {3.7195763553021927`*^9, 3.719576355304367*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Lennard-Jones Potential", "Section",
+ CellChangeTimes->{
+  3.719575319998166*^9, {3.719575559362166*^9, 3.7195755605212383`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/Lennard-JonesPotential.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Lennard-JonesPotential.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/Lennard-JonesPotential.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753200238543`*^9, {3.719576259888706*^9, 3.719576259891056*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Chain Rule", "Section",
+ CellChangeTimes->{
+  3.719575321117929*^9, {3.719575382089293*^9, 3.7195753838681383`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/TheChainRule.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheChainRule.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/TheChainRule.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575321140239*^9, {3.719576364652528*^9, 3.719576364654626*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mendelian Inheritance", "Section",
+ CellChangeTimes->{
+  3.719575320198275*^9, {3.719575532963087*^9, 3.719575533938508*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/MendelianInheritance.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MendelianInheritance.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/MendelianInheritance.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753202239637`*^9, {3.7195762770814753`*^9, 3.71957627708383*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Game of Life", "Section",
+ CellChangeTimes->{
+  3.719575319668412*^9, {3.719575617158792*^9, 3.719575619454701*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/GameOfLife.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/GameOfLife.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/GameOfLife.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319690824*^9, {3.719576206196114*^9, 3.719576206198352*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Boolean Algebra", "Section",
+ CellChangeTimes->{3.719575319261034*^9, 3.7195757430918217`*^9}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/BooleanAlgebra.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BooleanAlgebra.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/BooleanAlgebra.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575319291231*^9, 3.719575751738002*^9, {3.7195761669431353`*^9, 
+   3.71957616694492*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["What is a Manifold", "Section",
+ CellChangeTimes->{{3.719575321281166*^9, 3.719575346345811*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/WhatIsAManifold.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/WhatIsAManifold.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/WhatIsAManifold.nb"]], "Text",
+ CellChangeTimes->{
+  3.71957532128706*^9, {3.719576380163953*^9, 3.719576380166153*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1-D Conducti\[OAcute]n Across A Tube \[OpenCurlyDoubleQuote]Finite \
+Difference Equation\[CloseCurlyDoubleQuote]", "Section",
+ CellChangeTimes->{
+  3.7195753189157257`*^9, {3.719575844941093*^9, 3.7195758754040213`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/1-\
+DConductionAcrossaTubeFiniteDifferenceEquation.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/1-DConductionAcrossaTubeFiniteDifferenceEquation.nb"], None},
+ 
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/1-DConductionAcrossaTubeFiniteDifferenceEquation.nb"]], \
+"Text",
+ CellChangeTimes->{
+  3.719575318921439*^9, {3.719576066408518*^9, 3.7195760664105873`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A Musical Keyboard", "Section",
+ CellChangeTimes->{
+  3.71957531897305*^9, {3.719575826046063*^9, 3.719575828414178*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/AMusicalKeyboard.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/AMusicalKeyboard.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/AMusicalKeyboard.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575318992964*^9, {3.719576078587469*^9, 3.719576078589432*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Practical Codes for Storage Systems", "Section",
+ CellChangeTimes->{
+  3.719575320551086*^9, {3.719575475677744*^9, 3.719575482884207*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+PracticalCodesForStorageSystems.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PracticalCodesForStorageSystems.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/PracticalCodesForStorageSystems.nb"]], "Text",
+ CellChangeTimes->{
+  3.719575320556912*^9, {3.719576311646789*^9, 3.719576311648879*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "3 Jet Fraction in the Cross Section for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["e", "+"], 
+     SuperscriptBox["e", "-"]}], "\[Rule]", " ", "Hadrons"}], 
+   TraditionalForm]]]
+}], "Section",
+ CellChangeTimes->{
+  3.719575318931406*^9, {3.719575829829965*^9, 3.719575842526127*^9}, {
+   3.719575877772172*^9, 3.719575889822201*^9}}],
+
+Cell[TextData[ButtonBox["https://www.wolframcloud.com/objects/\
+TopicExplorations/Submissions/SummerSchool2017/\
+3JetFractionInTheCrossSectionForHadrons.nb",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/3JetFractionInTheCrossSectionForHadrons.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/objects/TopicExplorations/Submissions/\
+SummerSchool2017/3JetFractionInTheCrossSectionForHadrons.nb"]], "Text",
+ CellChangeTimes->{
+  3.7195753189391813`*^9, {3.7195760718008137`*^9, 3.7195760718031483`*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{807, 751},
+WindowMargins->{{-1919, Automatic}, {Automatic, -128}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 7, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 217, 3, 70, "Title",ExpressionUUID->"db8c215c-a898-4061-84e2-f155d307a4c5"],
+Cell[800, 27, 763, 12, 70, "Text",ExpressionUUID->"b22ba529-f05c-4c3f-8840-226d6700c03a"],
+Cell[1566, 41, 366, 8, 70, "Text",ExpressionUUID->"0c83e21c-64a9-4a12-848b-511b53968b46"],
+Cell[CellGroupData[{
+Cell[1957, 53, 216, 7, 70, "Section",ExpressionUUID->"8bde8f80-2641-4307-85cd-242a7ad2d1fe"],
+Cell[2176, 62, 596, 11, 70, "Text",ExpressionUUID->"fffc3cc6-f55a-4ed9-93dd-21996adba4bb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2809, 78, 145, 2, 70, "Section",ExpressionUUID->"b3c93bbb-3f9b-4680-8f43-1628502e6114"],
+Cell[2957, 82, 519, 10, 70, "Text",ExpressionUUID->"a091c6bc-1df3-48c3-b3c6-187ec05df18c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3513, 97, 160, 2, 70, "Section",ExpressionUUID->"3b020384-8f8b-412e-958a-692de423b5dd"],
+Cell[3676, 101, 604, 11, 70, "Text",ExpressionUUID->"80d55579-aeb1-4f46-bf00-566b9e0a8a08"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4317, 117, 140, 2, 70, "Section",ExpressionUUID->"de466c4b-abd4-49d5-8ad5-6f8f2765957f"],
+Cell[4460, 121, 549, 10, 70, "Text",ExpressionUUID->"8751541d-c01f-45fb-a18e-d35c0530a175"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5046, 136, 133, 2, 70, "Section",ExpressionUUID->"e7d1c9d4-30db-4bb6-be93-00d9b9d78d88"],
+Cell[5182, 140, 530, 10, 70, "Text",ExpressionUUID->"c2b29101-1c71-45bf-a253-f227527a291d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5749, 155, 140, 2, 70, "Section",ExpressionUUID->"58abe60c-3750-4864-ad77-a86c51d0f899"],
+Cell[5892, 159, 547, 10, 70, "Text",ExpressionUUID->"a394d2d4-96ab-4020-8cc4-59b0eda43e27"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6476, 174, 133, 2, 70, "Section",ExpressionUUID->"c261d58f-ea58-4b48-96f7-f43635e915f2"],
+Cell[6612, 178, 527, 10, 70, "Text",ExpressionUUID->"cd5ecb49-7989-4589-a546-df1ff5ac629a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7176, 193, 160, 2, 70, "Section",ExpressionUUID->"3273c8b4-36b4-45ae-b051-0f1ab3405109"],
+Cell[7339, 197, 607, 11, 70, "Text",ExpressionUUID->"52c2d353-1bee-41e8-9104-881dc08f3f20"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7983, 213, 136, 2, 70, "Section",ExpressionUUID->"ceb42fff-df89-4660-b116-bac3bd3cd797"],
+Cell[8122, 217, 539, 10, 70, "Text",ExpressionUUID->"25b7d3ff-a3f9-4154-86ef-e7f4ab932c79"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8698, 232, 182, 3, 70, "Section",ExpressionUUID->"4eda154b-bf1e-46c3-9fe9-aba7b6ca1be9"],
+Cell[8883, 237, 609, 11, 70, "Text",ExpressionUUID->"e63c817e-8380-470b-91e0-b5b07c9735a6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9529, 253, 143, 2, 70, "Section",ExpressionUUID->"9fa835aa-ef43-4ccd-ac4e-1a9d0d448511"],
+Cell[9675, 257, 623, 12, 70, "Text",ExpressionUUID->"c9041a3d-7072-4105-8209-7a9c7271199d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10335, 274, 136, 2, 70, "Section",ExpressionUUID->"442cf892-5787-4011-8d74-285fe28e1d7b"],
+Cell[10474, 278, 546, 10, 70, "Text",ExpressionUUID->"7bbd9441-fc3e-445f-9c8a-8757a45b9703"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11057, 293, 139, 2, 70, "Section",ExpressionUUID->"a9ed1712-1986-44fa-b3bf-8a959c4ad984"],
+Cell[11199, 297, 557, 10, 70, "Text",ExpressionUUID->"4330d210-cb34-4563-b755-db436f8441ba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11793, 312, 160, 2, 70, "Section",ExpressionUUID->"79b4431d-2fc6-49ee-85f8-684d3cd0d217"],
+Cell[11956, 316, 599, 11, 70, "Text",ExpressionUUID->"92e3553c-2c4a-4311-a88d-c65a46a25821"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12592, 332, 141, 2, 70, "Section",ExpressionUUID->"77700e84-cda3-4ce2-9ab6-5e7f5cd78ec8"],
+Cell[12736, 336, 553, 11, 70, "Text",ExpressionUUID->"a257745f-8fa5-45cb-9d39-4877646a446a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13326, 352, 133, 2, 70, "Section",ExpressionUUID->"a1a94362-6f6a-4e91-b45c-435252851f60"],
+Cell[13462, 356, 541, 10, 70, "Text",ExpressionUUID->"9b61c08f-49fd-4534-bbfb-a13fdb8a91ea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14040, 371, 141, 2, 70, "Section",ExpressionUUID->"79d5e1f8-2149-449d-b2c2-d3199bf5a5cf"],
+Cell[14184, 375, 556, 11, 70, "Text",ExpressionUUID->"457dfa83-85c9-444f-8d9a-f1c7b93cb615"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14777, 391, 149, 2, 70, "Section",ExpressionUUID->"a96367c6-2ca2-4727-bfb7-3b66fadafd18"],
+Cell[14929, 395, 623, 12, 70, "Text",ExpressionUUID->"f24b2c85-3ff8-47e4-94b4-654546c216d2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15589, 412, 131, 2, 70, "Section",ExpressionUUID->"7244d85c-876e-4942-b638-3b4ae97bbb56"],
+Cell[15723, 416, 522, 10, 70, "Text",ExpressionUUID->"969ba82d-aeb0-4e8b-be48-079088ee64f2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16282, 431, 145, 2, 70, "Section",ExpressionUUID->"00059836-b511-4615-95a7-eb9ab38fe32b"],
+Cell[16430, 435, 572, 11, 70, "Text",ExpressionUUID->"ab6f33eb-2640-433d-817f-8f1b61a63148"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17039, 451, 142, 2, 70, "Section",ExpressionUUID->"307a274a-080f-4212-b975-386699ee575a"],
+Cell[17184, 455, 564, 11, 70, "Text",ExpressionUUID->"551af406-32be-4bd3-8c16-4442b311640a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17785, 471, 124, 2, 70, "Section",ExpressionUUID->"25298991-3e79-4f1f-82fb-6f7b5e8ab411"],
+Cell[17912, 475, 515, 10, 70, "Text",ExpressionUUID->"3d436ca7-5d89-40c2-85f9-ed157e84b564"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18464, 490, 141, 2, 70, "Section",ExpressionUUID->"ab167da9-cd74-4783-bb93-e4129899e9e8"],
+Cell[18608, 494, 551, 10, 70, "Text",ExpressionUUID->"628a5707-88ef-4a70-8118-a167b200529f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19196, 509, 160, 2, 70, "Section",ExpressionUUID->"2758bcb4-2501-4495-b058-a5d0cfa9f88e"],
+Cell[19359, 513, 615, 12, 70, "Text",ExpressionUUID->"ff072096-f003-43b0-8928-014b33c27f92"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20011, 530, 211, 3, 70, "Section",ExpressionUUID->"e915307b-35dd-4645-b84c-020b4566da77"],
+Cell[20225, 535, 600, 11, 70, "Text",ExpressionUUID->"1ebfb4e7-9c7d-4772-bd8c-2d56560a4283"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20862, 551, 155, 2, 70, "Section",ExpressionUUID->"27895f68-d341-4282-ab9d-da34b0db9706"],
+Cell[21020, 555, 584, 11, 70, "Text",ExpressionUUID->"ce86705a-3b35-4be8-9434-3d62f7816f50"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21641, 571, 148, 2, 70, "Section",ExpressionUUID->"6442cac8-2b79-4af1-a0a3-f11eddaf64d7"],
+Cell[21792, 575, 574, 11, 70, "Text",ExpressionUUID->"bd49b929-ef24-41f1-95a6-460401c915f6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22403, 591, 137, 2, 70, "Section",ExpressionUUID->"d07e0cb6-6c37-4be8-b295-cc2b8e98f939"],
+Cell[22543, 595, 545, 10, 70, "Text",ExpressionUUID->"446ce33f-c70d-4c73-a861-9e92dd4c4a3c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23125, 610, 145, 2, 70, "Section",ExpressionUUID->"9e112dd4-9ce4-4ea7-bbdb-1a37f3a035e0"],
+Cell[23273, 614, 570, 11, 70, "Text",ExpressionUUID->"7ed43011-c580-4d23-9ec9-0fcf1b1de9b5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23880, 630, 127, 2, 70, "Section",ExpressionUUID->"c0a11131-576e-4cbf-b986-ef7be7ad0852"],
+Cell[24010, 634, 526, 10, 70, "Text",ExpressionUUID->"33c51833-8604-41ed-9f8f-fa785ed70307"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24573, 649, 156, 2, 70, "Section",ExpressionUUID->"06033478-e879-4f8b-8677-6237d1ee012d"],
+Cell[24732, 653, 595, 11, 70, "Text",ExpressionUUID->"9beed131-08e4-4082-981b-350b99a9ec49"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25364, 669, 177, 3, 70, "Section",ExpressionUUID->"fc305327-4a21-4095-a62a-06ae9b62d71c"],
+Cell[25544, 674, 582, 11, 70, "Text",ExpressionUUID->"33e08288-1f04-4e2b-bf3c-d6cfd6b16995"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26163, 690, 140, 2, 70, "Section",ExpressionUUID->"d400097c-49d1-45c1-8320-bb036b65b118"],
+Cell[26306, 694, 559, 11, 70, "Text",ExpressionUUID->"28397bff-6ac3-4b5d-b599-9ee34f4c14b7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26902, 710, 126, 2, 70, "Section",ExpressionUUID->"b360f1e5-08a8-45e1-87bf-0209e791c8e3"],
+Cell[27031, 714, 517, 10, 70, "Text",ExpressionUUID->"77d0419d-9137-45ed-af5e-adbe6a1b6196"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27585, 729, 121, 2, 70, "Section",ExpressionUUID->"5a183f9b-a84e-45b1-8b4c-e7490c0f05f4"],
+Cell[27709, 733, 512, 10, 70, "Text",ExpressionUUID->"9e322612-7f08-4377-810d-0915cf6923c9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28258, 748, 161, 2, 70, "Section",ExpressionUUID->"156cd553-3f6c-4e7b-b68e-24f760ae7f6a"],
+Cell[28422, 752, 606, 11, 70, "Text",ExpressionUUID->"12d456b1-da8e-47bb-a752-5b93959c2fda"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29065, 768, 148, 2, 70, "Section",ExpressionUUID->"4a2bd98f-52d1-4a0a-a31f-724f64963210"],
+Cell[29216, 772, 572, 11, 70, "Text",ExpressionUUID->"ccd6d760-90c7-43f6-9efd-393735210c9d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29825, 788, 185, 4, 70, "Section",ExpressionUUID->"52e9b12c-49d9-4a78-a2c6-dd83cc1a3b77"],
+Cell[30013, 794, 659, 13, 70, "Text",ExpressionUUID->"c03399c4-2608-465a-abcb-af4348927e3a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30709, 812, 134, 2, 70, "Section",ExpressionUUID->"714c8524-a792-45fd-86a7-2919a190f5ef"],
+Cell[30846, 816, 534, 10, 70, "Text",ExpressionUUID->"4e0c8df9-7fa3-46e6-a819-643eeca566ba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31417, 831, 130, 2, 70, "Section",ExpressionUUID->"2ddad200-2b97-44f1-bac2-def5e8607c41"],
+Cell[31550, 835, 515, 10, 70, "Text",ExpressionUUID->"4996cf43-3d29-4f1e-bd99-b0023b76025e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32102, 850, 125, 2, 70, "Section",ExpressionUUID->"c5add32d-7918-4e21-8705-491392a3c2a7"],
+Cell[32230, 854, 511, 10, 70, "Text",ExpressionUUID->"9556ac3f-9a75-4782-ae78-41c78a06cf40"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32778, 869, 142, 2, 70, "Section",ExpressionUUID->"89a2506e-bd2e-4f6e-a977-0978624c0c23"],
+Cell[32923, 873, 509, 10, 70, "Text",ExpressionUUID->"dfcf31e4-c94e-4b3b-8d39-64d0a42c80fc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33469, 888, 127, 2, 70, "Section",ExpressionUUID->"88f6461c-ef55-43a0-b656-51441a1ee9c3"],
+Cell[33599, 892, 518, 10, 70, "Text",ExpressionUUID->"d74b7593-9a73-44d1-9f48-348cc7d130e5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34154, 907, 142, 2, 70, "Section",ExpressionUUID->"51f7d3d8-778c-4734-9634-48abf894621e"],
+Cell[34299, 911, 568, 11, 70, "Text",ExpressionUUID->"b74e0cc3-3258-4534-b733-486d416ac775"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34904, 927, 126, 2, 70, "Section",ExpressionUUID->"0ad0fd6e-06bf-4e52-b4ce-c1f774ae5bc9"],
+Cell[35033, 931, 521, 10, 70, "Text",ExpressionUUID->"67126b52-9d95-402f-89ff-8b6978b7ebc4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35591, 946, 127, 2, 70, "Section",ExpressionUUID->"87298926-6465-4663-8cb9-969f13a1d614"],
+Cell[35721, 950, 518, 10, 70, "Text",ExpressionUUID->"1ffc22c9-0967-4c78-ba41-4a66cbfbff6f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36276, 965, 134, 2, 70, "Section",ExpressionUUID->"38bbe54c-3aa8-43c9-befe-059536ad1c72"],
+Cell[36413, 969, 531, 10, 70, "Text",ExpressionUUID->"953219b9-7844-4a4c-b1be-a631d83f3831"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36981, 984, 134, 2, 70, "Section",ExpressionUUID->"10609577-060a-4687-b9cf-34e57c9fa397"],
+Cell[37118, 988, 539, 10, 70, "Text",ExpressionUUID->"6bfc8e68-6dff-4e66-b521-8a0b3994e421"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37694, 1003, 131, 2, 70, "Section",ExpressionUUID->"9c15c0cd-cbc2-4144-a2e2-bfa3b8b5d440"],
+Cell[37828, 1007, 524, 10, 70, "Text",ExpressionUUID->"ad139752-5153-413d-b9b2-67f8846642c6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38389, 1022, 131, 2, 70, "Section",ExpressionUUID->"aee92525-ca8b-497b-b85a-72fa5c371c34"],
+Cell[38523, 1026, 530, 10, 70, "Text",ExpressionUUID->"9e4bb468-7ca0-43d3-b8a7-966af8e23270"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39090, 1041, 142, 2, 70, "Section",ExpressionUUID->"e37510fd-704e-4731-bb80-2221f1ad18c2"],
+Cell[39235, 1045, 562, 11, 70, "Text",ExpressionUUID->"262ae772-b740-4092-8362-f6e29770951f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39834, 1061, 141, 2, 70, "Section",ExpressionUUID->"13af4b79-403c-4900-ae74-eabf1aa99e78"],
+Cell[39978, 1065, 555, 10, 70, "Text",ExpressionUUID->"400d87fb-46da-4a8e-a9e1-ff97b4032813"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40570, 1080, 148, 2, 70, "Section",ExpressionUUID->"c652e86f-9472-4bfa-9ac3-6b132af2a5ac"],
+Cell[40721, 1084, 580, 11, 70, "Text",ExpressionUUID->"a8e9d54f-5949-4839-9132-ab392375d8d7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41338, 1100, 121, 2, 70, "Section",ExpressionUUID->"33fb512f-7ab4-4828-8f29-b8fcd7a68410"],
+Cell[41462, 1104, 506, 10, 70, "Text",ExpressionUUID->"9829bc43-1f48-4a3b-8e63-846acf56a199"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42005, 1119, 86, 1, 70, "Section",ExpressionUUID->"5bf97ecd-b12c-429a-9e82-a19c9fcccdfd"],
+Cell[42094, 1122, 485, 10, 70, "Text",ExpressionUUID->"e34fd29c-b320-45a8-866a-160e00fd4c11"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42616, 1137, 160, 2, 70, "Section",ExpressionUUID->"e3c72041-46b2-4783-bbb6-ba1c71757525"],
+Cell[42779, 1141, 613, 11, 70, "Text",ExpressionUUID->"660eca5f-3d29-471c-b70b-cbbff16d65ba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43429, 1157, 135, 2, 70, "Section",ExpressionUUID->"a5a5c03f-79b5-4b9f-b036-ee6dd0dd42d0"],
+Cell[43567, 1161, 540, 10, 70, "Text",ExpressionUUID->"98e860b2-74c4-428d-bcd5-3827670a0159"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44144, 1176, 150, 2, 70, "Section",ExpressionUUID->"1c39307e-abfa-4ecf-9572-1b9d25087e15"],
+Cell[44297, 1180, 583, 11, 70, "Text",ExpressionUUID->"46a15294-23d7-4a81-8115-d72f518a294f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44917, 1196, 130, 2, 70, "Section",ExpressionUUID->"4e68f189-8020-4eeb-9ab6-1b1b1074acb6"],
+Cell[45050, 1200, 519, 10, 70, "Text",ExpressionUUID->"be7af7da-2331-42fc-8e16-8a7101ebd3e4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45606, 1215, 153, 2, 70, "Section",ExpressionUUID->"dff75fc0-dd85-4627-9667-db98a86e05c7"],
+Cell[45762, 1219, 582, 11, 70, "Text",ExpressionUUID->"b846b5eb-db26-4d1b-9669-4559a6ffd6c6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46381, 1235, 135, 2, 70, "Section",ExpressionUUID->"e48da830-bf14-4c6a-be39-0d426abc708d"],
+Cell[46519, 1239, 542, 10, 70, "Text",ExpressionUUID->"b9264a79-abba-4535-b9ca-58a14ed094c9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47098, 1254, 126, 2, 70, "Section",ExpressionUUID->"f303f1c9-01ec-46c6-855d-8b375f412755"],
+Cell[47227, 1258, 510, 10, 70, "Text",ExpressionUUID->"459b18ff-fb5c-46f1-90e6-c231452a4c63"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47774, 1273, 131, 2, 70, "Section",ExpressionUUID->"db3a2bce-6f33-4918-ace4-53ed20fdbe7b"],
+Cell[47908, 1277, 537, 10, 70, "Text",ExpressionUUID->"bae4741c-f0d7-47f6-94a2-d18b069f3c71"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48482, 1292, 122, 2, 70, "Section",ExpressionUUID->"1fa6025b-0d0c-4d6f-97e6-457772a29122"],
+Cell[48607, 1296, 504, 10, 70, "Text",ExpressionUUID->"b09acfec-3d2b-4fc8-8327-831620e0b007"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49148, 1311, 100, 1, 70, "Section",ExpressionUUID->"dd425dbf-0d48-4dda-a325-23037624d1e0"],
+Cell[49251, 1314, 543, 11, 70, "Text",ExpressionUUID->"4d8daaf9-a200-44c6-abc2-79c09a0320fa"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49831, 1330, 103, 1, 70, "Section",ExpressionUUID->"607dee29-3458-4365-8267-f7712b1f22e0"],
+Cell[49937, 1333, 518, 10, 70, "Text",ExpressionUUID->"b1e1d7fe-1b91-4694-8deb-43bb3f8b7286"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50492, 1348, 226, 3, 70, "Section",ExpressionUUID->"d353fa32-3d3f-4db6-9a25-26d670094bcd"],
+Cell[50721, 1353, 626, 13, 70, "Text",ExpressionUUID->"5464e269-bad8-42d3-951b-b77b4ba681e4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51384, 1371, 127, 2, 70, "Section",ExpressionUUID->"69570b55-f5ee-41fb-ae13-c826e1058719"],
+Cell[51514, 1375, 522, 10, 70, "Text",ExpressionUUID->"bd99097c-a677-417e-9a85-d3dc9735f2b6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52073, 1390, 145, 2, 70, "Section",ExpressionUUID->"349631b6-bb88-4a7a-a4ed-cd9cc1e172dc"],
+Cell[52221, 1394, 569, 11, 70, "Text",ExpressionUUID->"a4b60b71-3978-4057-9b57-a2969c22acc1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52827, 1410, 384, 12, 70, "Section",ExpressionUUID->"18ea9c86-5f95-438f-8f42-a3adeac43ba0"],
+Cell[53214, 1424, 599, 11, 70, "Text",ExpressionUUID->"0b618f71-263e-4907-9309-57ad627d8b6b"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
